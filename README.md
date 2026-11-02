@@ -1,6 +1,6 @@
 # COGC
 
-Official PyTorch implementation of **Controllable Optimizable Gamma Correction as Efficient Image Luminance Adapter**, accepted at **BMVC 2026**.
+Official PyTorch implementation of **Controllable Optimizable Gamma Correction as Efficient Image Luminance Adapter** at **BMVC 2026**.
 
 > **Controllable Optimizable Gamma Correction as Efficient Image Luminance Adapter**  
 > Yimu Yang, Jiaming Chen, Zhenzhong Feng, and Zhenyuan Yang  
