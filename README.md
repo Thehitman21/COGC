@@ -98,20 +98,24 @@ The following profiles implement the configurations reported in Table 1 of the p
 ## Datasets
 
 COGC is evaluated on paired enhancement, unpaired enhancement, novel-view synthesis, face detection, and semantic-segmentation benchmarks. Download each dataset from its official project page or author-maintained repository:
+### Paired datasets 
+LOL dataset: Chen Wei, Wenjing Wang, Wenhan Yang, and Jiaying Liu. "Deep Retinex Decomposition for Low-Light Enhancement". BMVC, 2018. [[Baiduyun (extracted code: sdd0)]](https://pan.baidu.com/s/1spt0kYU3OqsQSND-be4UaA) [[Google Drive]](https://drive.google.com/file/d/18bs_mAREhLipaM2qvhxs7u7ff2VSHet2/view?usp=sharing)
 
-| Dataset | Task in the paper | Official resource |
-| --- | --- | --- |
-| LOLv2-Real | Paired low-light image enhancement | [CVPR 2020 Semi-Low-Light / LOLv2](https://github.com/flyywh/CVPR-2020-Semi-Low-Light#3-dataset) |
-| LSRW-Huawei | Paired low-light image enhancement | [R2RNet / LSRW](https://github.com/JianghaiSCU/R2RNet#dataset) |
-| LSRW-Nikon | Paired low-light image enhancement | [R2RNet / LSRW](https://github.com/JianghaiSCU/R2RNet#dataset) |
-| LOM | Low-light and over-exposure novel-view synthesis | [Aleth-NeRF / LOM](https://github.com/cuiziteng/Aleth-NeRF#-usage) |
-| DICM | Unpaired low-light image enhancement | [BIMEF dataset collection](https://github.com/baidut/BIMEF#datasets) |
-| LIME | Unpaired low-light image enhancement | [BIMEF dataset collection](https://github.com/baidut/BIMEF#datasets) |
-| MEF | Unpaired low-light image enhancement | [BIMEF dataset collection](https://github.com/baidut/BIMEF#datasets) |
-| NPE | Unpaired low-light image enhancement | [BIMEF dataset collection](https://github.com/baidut/BIMEF#datasets) |
-| VV | Unpaired low-light image enhancement | [BIMEF dataset collection](https://github.com/baidut/BIMEF#datasets) |
-| DarkFace | Low-light face detection | [DARK FACE official project page](https://flyywh.github.io/CVPRW2019LowLight/) |
-| MFNet | Nighttime RGB-thermal semantic segmentation | [MFNet official project page](https://www.mi.t.u-tokyo.ac.jp/projects/mil_multispectral/) |
+LSRW dataset: Jiang Hai, Zhu Xuan, Ren Yang, Yutong Hao, Fengzhu Zou, Fang Lin, and Songchen Han. "R2RNet: Low-light Image Enhancement via Real-low to Real-normal Network". Journal of Visual Communication and Image Representation, 2023. [[Baiduyun (extracted code: wmrr)]](https://pan.baidu.com/s/1XHWQAS0ZNrnCyZ-bq7MKvA)
+
+### Unpaired datasets 
+Please refer to [[Project Page of RetinexNet]](https://daooshee.github.io/BMVC2018website/).
+
+### Low light segmentation
+[MFNet dataset night subset](https://www.mi.t.u-tokyo.ac.jp/static/projects/mil_multispectral/)
+
+### Low light face detection
+[DARKFACE dataset](https://flyywh.github.io/CVPRW2019LowLight/)
+
+### Paired low-light & normal-light & over-exposure multi-view images dataset. 
+Download the <strong>LOM</strong> dataset from: <a href="https://drive.google.com/file/d/1orgKEGApjwCm6G8xaupwHKxMbT2s9IAG/view?usp=sharing">[google drive]</a> or 
+				<a href="https://pan.baidu.com/s/1BGfstg2IpN0JZBlVaMG-eQ">[baiduyun (passwd: ve1t)]</a>.
+LOM dataset contains 5 scenes (*buu* | *chair* | *sofa* | *bike* | *shrub*), each scene includes 25~65 paired multi-view normal-light & low-light images & over-exposure images, and low-light images enhanced by different 2D low-light enhancement methods.
 
 The datasets are not redistributed in this repository. Please follow the original authors' licenses and usage terms, preserve the official train/test splits, and cite the corresponding dataset papers.
 
